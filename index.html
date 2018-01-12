@@ -10,12 +10,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Track Suggester</h1>
-        <p>To get a better understanding of the type of language is suited for you, we need to ask a you questions to really narrow down what will be a good fit for you!</p>
+      <h1> Epicodus Track Suggester</h1>
+        <p>Epicodus offers the the following tracks in Portland and Seattle;Ruby/Rails, PHP/Drupal, Java/Andriod, CSS/Design , C#/.NET. All tracks must complete Intro to programming and JavaScript. To get a better understanding of the type of language is suited for you, we need to ask a you questions to really narrow down what will be a good fit for you!</p>
     </div>
     <form id="add">
       <div class="form-group">
-        <label for="add1">What is your full name?</label>
+        <label for="add1">What is your Full Name?</label>
         <input id="add1" class="form-control" type="text">
       </div>
       <div class="form-group">
@@ -23,17 +23,42 @@
         <input id="born" class="form-control" type="date">
       </div>
       <div class="form-group">
-        <label for="add2">Do you have any previous experience in the computer science world?</label>
+        <label for="add2">Do you have any previous experience in the computer science world, if so breifly explain:</label>
         <input id="add2" class="form-control" type="text">
       </div>
-    <form id="track">
-      <label for="age">Please enter your age</label>
-      <input id="age" type="text">
-      <label for="end">Would you like to work front-end or back-end</label>
-      <select id="end">
-        <option value="front">Front-End</option>
-        <option value="back">Back-End</option>
-      </select>
+      <div class="form-group">
+        <label for="add3">How did you hear about Epicodus?</label>
+        <select id="hear" class="form-control">
+          <option value="alumni">Alumni</option>
+          <option value="internet">Internet</option>
+          <option value="family">Family</option>
+          <option value="friend">Friend</option>
+          <option value="meetup">MeetUp</option>
+          <option value="staff">Staff</option>
+          <option value="work">Work</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="age">Please enter your age</label>
+        <input id="age" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="web">Are you more interested in web development or mobile applications?</label>
+        <select id="web">
+          <option value="webd">Web Development</option>
+          <option value="mobile">Mobile Applications<option>
+        </select>
+      <div class="form-group">
+        <label for="end">Would you like to work front-end or back-end</label>
+        <select id="end">
+          <option value="front">Front-End</option>
+          <option value="back">Back-End</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">SUBMIT</button>
+    </form>    
+
 
 
   </body>
