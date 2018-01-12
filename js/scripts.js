@@ -13,7 +13,7 @@ $(document).ready(function() {
       $('#csharp').show();
     }
     if (end === 'back' && path === 'mobile') {
-      $('')
+      $('#java').show();
     }
   event.preventDefault();
 });
